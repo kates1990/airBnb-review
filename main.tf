@@ -7,6 +7,6 @@ resource "aws_instance" "web" {
     encrypted = true
   }
   tags = {
-    Name = "AirBnB-web-server"
+    Name = "AirBnB-web-servers"
   }
 }
